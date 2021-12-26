@@ -4,7 +4,7 @@ pipeline() {
     stages {
         stage('image') {
             steps {
-                sh 'docker build -t i5 Dockerfile'
+                sh 'docker build -t i5 .'
             }
         }
     }
